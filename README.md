@@ -2,7 +2,7 @@
 
 ## Scenario 
 
-Kangaroo is an online delivery company, which is looking for the development an effective Relational Database Management System (RDBMS) and data warehouse to satisfy the needs of the growing business. As a data analyst, you have been asked to develop a required system for Kangaroo. 
+Kangaroo is an online delivery company, which is looking for the development of an effective Relational Database Management System (RDBMS) and data warehouse to satisfy the needs of the growing business. As a data analyst, you have been asked to develop a required system for Kangaroo. 
 
 
 ## Problem Statement 
@@ -34,7 +34,7 @@ Design a relational database using either Chen’s notation or Crow Foot notatio
 
 ## Task two 
 
-Write MySQL code to implement your database design. You should document your code and use constraints, default values, ON DELETE clauses, etc., as appropriate for the business scenario.  The use of wizards is prohibited.
+Write SQL code to implement your database design. You should document your code and use constraints, default values, ON DELETE clauses, etc., as appropriate for the business scenario.  The use of wizards is prohibited.
  
 Populate all the tables in the database you created with some data (At least 10 records in each table). The data should be meaningful but does not need to be extensive. 
 
@@ -43,7 +43,7 @@ Populate all the tables in the database you created with some data (At least 10 
 Explain how database design will support the business scenario. 
 
 
-## How the systetm that satisfy the business scenario was developed 
+## How the system that satisfy the business scenario was developed 
 
 
 To satisfy the business requirements, a database system should be developed that stores information about Customers, Items, Restaurants, Orders, Drivers, and their Vehicles. For Customers, the system should record their Customer ID, Last Name, First Name, Email, and Phone Number. For Drivers, their name, salary, email address, and their manager should be recorded, as well as details of their Driving License such as Driving License Number, Issue Date, country of issue, and Expiry Date.
@@ -159,9 +159,37 @@ TASK TWO:
 
 Task Two:
 
-**_MySQL code to implement your database designed_** 
+**_SQL code to implement your database designed_** 
 
  CREATE DATABASE kangaroo_database for delivery
 
 
+**_A screenshot illustrating the creation of the tables is included below, and the complete syntax file has been uploaded for reference_**.
 
+customer Table 
+
+![!](customer_table.png)
+
+Driver Table 
+
+![!](drivers_table.png)
+
+Item Table 
+
+![!](itemtable.png)
+
+Manger Table 
+
+![!](managertable.png)
+
+Motorbike Table 
+
+![!](motorbike.png)
+
+Order Table 
+
+![!](ordertable.png)
+
+Restaurant Table 
+
+![!](restaurant_tbl.png)
